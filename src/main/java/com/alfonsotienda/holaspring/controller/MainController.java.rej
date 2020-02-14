@@ -1,0 +1,9 @@
+diff a/src/main/java/com/alfonsotienda/holaspring/controller/MainController.java b/src/main/java/com/alfonsotienda/holaspring/controller/MainController.java	(rejected hunks)
+@@ -31,7 +31,6 @@
+         return "Hello World";
+     }
+ 
+-        respuesta.addObject("mensaje", msg);
+     @GetMapping("/calculadora")
+     public ModelAndView calculadoraHTML() {
+         ModelAndView modelAndView = new ModelAndView("hello");

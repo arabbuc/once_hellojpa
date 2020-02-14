@@ -31,6 +31,7 @@ public class MainController {
         return "Hello World";
     }
 
+        respuesta.addObject("mensaje", msg);
     @GetMapping("/calculadora")
     public ModelAndView calculadoraHTML() {
         ModelAndView modelAndView = new ModelAndView("hello");
